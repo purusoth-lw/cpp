@@ -1,0 +1,45 @@
+C++ Programming:
+=============
+
+		C++ Programming:
+		=============
+
+Introduction:
+=========
+   Developed By Bjarne Stroustrup.
+   in 1979
+   at AT&T BELL Laboratories
+
+   C++ is a upgrade version of c.
+
+Why?
+===
+   C is a structure oriented programming or Procedure oriented programming.
+   it has set of procedure to do a program
+	
+   we need do a some set of structure of c program.
+   it was little bit difficult.
+   overcome this issue on c++.
+
+   C++ -----Extended(update) version of  c.
+	OOP Concept----Object Oriented Programming 
+
+OOPS:
+====
+1.Object
+2.Class
+3.Encapsulation
+4.Abstraction
+5.Inheritance
+6.Polymorphism
+
+How to Work c++ program:
+==================
+
+type the program on notepad
+
+save with .cpp Extension
+
+name.cpp----->compiler---->no error-------->obj file--------->run----------->exe file
+
+if there any error return main program
