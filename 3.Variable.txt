@@ -1,0 +1,19 @@
+Variable:
+=========
+It is user defined text.
+
+we need store and reuse/access the data from memory.
+we need to provide a name for that data.
+the name is called variable.
+
+
+Rules:
+======
+1.a-z,A-Z are accepted.
+2.case sensitive.(uppercase and lower case are not equal).
+3.start with alphabet or underscore(_).
+4.Do not start with Number.
+5.variable b/w space not allowed
+6.mixed alphabet and number are allowed.
+7.special Characters(symbol) are not allowed except underscore(_).
+8.Keyword(Reserve Word) are not allowed.
