@@ -1,0 +1,67 @@
+cout Statement:
+==========
+
+display the  data in output screen/dynamic screen/Runtime screen/late binding.
+	
+cout<<"Text,Escape sequance ";(<<---Stream Insertion Operator)
+cout<<variable<<endl;
+cout<<"Text,escape sequance"<<variable<<endl;
+
+Escape sequance:
+===========
+
+\n-----new line
+\"-----Double Quotes
+\'-----Single Quotes
+\t-----Horizontal Tab
+\b-----Backspace
+\?-----Question Mark
+\0-----NULL(nothing after the line)
+
+
+Programs:
+=======
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"\"This is \'Python\' n\b\t \0Program\"\n"<<endl;
+
+    int a=10,b=20,c;
+    c=a+b;
+    cout<<a;//102030
+    cout<<b;
+    cout<<c<<endl;
+
+    cout<<a<<"\t";
+    cout<<b<<"\t";
+    cout<<c<<endl;
+
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
+
+    cout<<a<<"\t"<<b<<"\t"<<c<<endl;
+    cout<<a<<"\n"<<b<<"\n"<<c<<endl;
+
+
+    cout<<"a : "<<a;//102030
+    cout<<"b : "<<b;
+    cout<<"c : "<<c<<endl;
+
+    cout<<"a : "<<a<<"\t";
+    cout<<"b : "<<b<<"\t";
+    cout<<"c : "<<c<<endl;
+
+    cout<<"a : "<<a<<endl;
+    cout<<"b : "<<b<<endl;
+    cout<<"b : "<<c<<endl;
+
+    cout<<"a : "<<a<<"\tb : "<<b<<"\tc : "<<c<<endl;
+    cout<<"a : "<<a<<"\nb : "<<b<<"\nc : "<<c<<endl;
+
+    //10+20=30
+    cout<<a<<" + "<<b<<" = "<<c<<endl;
+    return 0;
+}

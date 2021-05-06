@@ -1,0 +1,73 @@
+Size and Range:
+===========
+
+syntax:
+=====
+sizeof(datatype or variable)
+
+character------1 byte---------(-128 to 127)
+Integer----------2 byte----------(-32768 to 32767)
+float--------------4 byte
+double-----------8 byte
+long int ---------4 byte---------(-2,147,483,648 to 2,147,483,647)
+
+
+address operator:(&variable)
+
+
+
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+
+
+    /*
+    reference operator(&)
+    cout<<&a;//0x81ae12---> hexa decimal format
+    in c++ program, address will be represents by hexa values only.
+    */
+    int a=100000;
+    cout<<"value of a : "<<a<<endl;
+    cout<<"size of a : "<<sizeof(int)<<endl;
+    cout<<"size of a : "<<sizeof(a)<<endl;
+    cout<<"addr of a : "<<&a<<endl<<endl;
+
+
+    float p=2.012345678901234567890f;//7 digit precision
+    cout<<"value of p : "<< setprecision(7)<<p<<endl;
+    cout<<"size of p  : "<<sizeof(float)<<endl;
+    cout<<"size of p  : "<<sizeof(p)<<endl;
+    cout<<"addr of p  : "<<&p<<endl<<endl;
+
+    double d=2.012345678901234567890;//16 digit precision
+    cout<<"value of d : "<< setprecision(16)<<d<<endl;
+    cout<<"size of  d : "<<sizeof(double)<<endl;
+    cout<<"size of  d : "<<sizeof(d)<<endl;
+    cout<<"addr of  d : "<<&d<<endl<<endl;
+
+    char ch1='a',ch2='0',ch3='$';
+    cout<<"value of ch1 : "<<ch1<<endl;
+    cout<<"value of ch2 : "<<ch2<<endl;
+    cout<<"value of ch3 : "<<ch3<<endl;
+    cout<<"size of ch1 : "<<sizeof(ch1)<<endl;
+    cout<<"size of ch1 : "<<sizeof(char)<<endl;
+    cout<<"addr of ch1 : "<<&ch1<<endl<<endl;
+
+    long int l=100000;
+    cout<<"value of l : "<<l<<endl;
+    cout<<"size of l : "<<sizeof(long int)<<endl;
+    cout<<"size of l : "<<sizeof(l)<<endl;
+    cout<<"addr of l : "<<&l<<endl<<endl;
+
+    string name="Janani";
+    cout<<"name : "<<name<<endl;
+    cout<<"size : "<<sizeof(string)<<endl;
+    cout<<"size : "<<sizeof(name)<<endl;
+    cout<<"addr : "<<&name<<endl;
+
+    return 0;
+}
