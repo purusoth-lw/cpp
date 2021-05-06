@@ -1,0 +1,65 @@
+Data Types:
+==========
+character----char----'a','b','1','#'---(single character(A-z,a-z,0-9,special char))
+integer--------int-------1,2,3,10,(whole number)
+float------------float----12.3,3.14(point values)
+double---------double--1.011111111(point value with high precision)
+long integer------long int
+
+Syntax 1:
+========
+datatype variable;//variable declaration
+variable=value;//value initialization
+
+Ex:
+int a;
+a=10;
+
+syntax 2:
+========
+ datatype variable=value;	//variable declaration & value initialization
+
+Ex:
+===
+int a=10;
+
+syntax 3:
+========
+datatype var1=val1,var2=val2,.......var_n=val_n;
+
+Ex;
+int a=10,b=20,c=30,d;
+
+
+Program:
+=======
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+
+    int a=10;
+    cout<<"a : "<<a<<endl;
+
+    float p=2.012345678901234567890f;//7 digit precision
+    cout<<"p : "<< setprecision(7)<<p<<endl;
+
+    double d=2.012345678901234567890;//16 digit precision
+    cout<<"d : "<< setprecision(16)<<d<<endl;
+
+    char ch1='a',ch2='0',ch3='$';
+    cout<<"ch1 : "<<ch1<<endl;
+    cout<<"ch2 : "<<ch2<<endl;
+    cout<<"ch3 : "<<ch3<<endl;
+
+    long int l=100000;
+    cout<<"l : "<<l<<endl;
+
+    string name="Janani";
+    cout<<"name : "<<name<<endl;
+
+    return 0;
+}
