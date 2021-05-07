@@ -1,0 +1,97 @@
+cin statements:
+==========
+To get the value  in output screen.
+Output screen/Run Time Screen/Dynamic Screen/Late binding
+
+cin>>var;	(>>---stream Extraction operator)
+
+cin>>var1>>var2>>...................>>var_n
+
+Ex:
+cin>>a;
+cin>>a>>b;
+
+Program 1:
+=======
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+    cout<<"Enter a number : ";
+    cin>>a;
+
+
+    float f;
+    cout<<"Enter point value : ";
+    cin>>f;
+
+    double d;
+    cout<<"Enter point value : ";
+    cin>>d;
+
+    char ch;
+    cout<<"Enter initial : ";
+    cin>>ch;
+
+    string name;
+    cout<<"Enter name : ";
+    cin>>name;
+
+    cout<<"a : "<<a<<endl;
+    cout<<"f : "<<f<<endl;
+    cout<<"d : "<<d<<endl;
+    cout<<"name : "<<name<<"."<<ch<<endl;
+
+
+
+    return 0;
+}
+
+
+
+program 2:
+=======
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"Enter Two numbers : \n";
+    cin>>a>>b;
+
+    cout<<"a : "<<a<<endl;
+    cout<<"b : "<<b<<endl;
+
+
+
+    return 0;
+}
+
+
+Program 3:
+=======
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int sno;
+    float fees;
+    string name;
+
+    cout<<"Enter s.no,name & fees numbers : \n";
+    cin>>sno>>name>>fees;
+
+    cout<<"s.no : "<<sno<<endl;
+    cout<<"name : "<<name<<endl;
+    cout<<"fees : Rs."<<fees<<endl;
+
+
+    return 0;
+}
+
+

@@ -1,0 +1,87 @@
+Typecasting:
+=========
+converting one datatype to another.
+
+char------>int-------->float------------>double
+
+Type:
+===
+1.implicit Typecasting
+2.Explicit Typecasting
+
+1.implicit Typecasting:
+===============
+automatic data conversion
+
+int i=10;
+float p=i;
+
+Program : 
+=======
+//Implecit typecasting
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    char ch='a';//ascii table a--97
+    int a;
+    a=ch;
+    cout<<"a : "<<a<<endl;
+
+    return 0;
+}
+
+
+2.Explicit Typecasting:
+===============
+Manually convert data.
+
+downcasting-----data loss(upper to lower)
+ char---> int ---->float---->double
+
+Syntax:
+======
+c-style conversion:
+============
+(datatype)variable;
+
+Program:
+=======
+//Explicit c-type typecasting
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float f=10.245;
+    int a;
+    a=(float)f;#explicit typecasting
+    cout<<"a : "<<a<<endl;
+
+    return 0;
+}
+
+
+function type conversion:
+================
+datatype(variable);
+
+
+Program:
+======
+//Explicit Function type typecasting
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float f=10.245;
+    int a;
+    a=float(f);//explicit Function typecasting
+    cout<<"a : "<<a<<endl;
+
+    return 0;
+}
+
+
